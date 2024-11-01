@@ -48,7 +48,6 @@ class Account:
         return '{' + str(self.account_number) + ',' + str(self.type) + ',' + str(self.account_name) + ',' + str(self.balance) + '}'
 
 
-
 account1 = Account("0000", "saving", "David Patterson", 1000)
 account2 = Account("0001", "checking", "John Hennessy", 2000)
 account3 = Account("0003", "saving", "Mark Hill", 3000)
